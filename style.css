@@ -1,0 +1,116 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing:border box;
+ 
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+
+    overflow-x: none;
+    background-color: #e2e5e8;
+    background-image: linear-gradient(98deg, #e2e5e8 0%, #ffffff 100%);
+
+    
+
+}
+.navcontainer{
+    width: 100vw;
+    background-color: #000000;
+    background: linear-gradient(160deg, #000000 0%, #8085d0 100%);
+    min-height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+nav{
+    width: 100%;
+   
+}
+
+#navlist{
+width: 95%;
+padding: 15px;
+list-style: none;
+font-size: 2.5rem;
+display: flex;
+justify-content: space-around;
+align-items: center;
+}
+
+#navlogo{
+    font-size: 2.8rem;
+    color: azure;
+}
+a{
+    text-decoration: none;
+    color: azure;
+}
+#navitems{
+    display: flex;
+    gap: 40px;
+}
+.footerbox{
+    background-color: #000000;
+    background: linear-gradient(160deg, #000000 0%, #8085d0 100%);
+   
+    width: 100%;
+    text-align: center;
+    min-height: 40px;
+}
+.footerbox p{
+    color: black;
+    font-size: 2rem;
+}
+.contentbox{
+    width: 53%;
+    margin: auto;
+       background: white;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 2rem;
+    box-shadow: 0px 0px 30px black;
+   
+}
+.item{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.rightbox img{
+    border-radius: 20px;
+    height: 300px;
+    transition: all 0.6s linear 0s;
+}
+.rightbox img:hover{
+    transform: scale(1.2);
+}
+.leftbox{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.leftbox h2{
+    font-size: 2rem;
+}
+.ingbox{
+    font-size: 1.4rem;
+}
+.recipebox{
+    font-size: 1.4rem;
+}
+.Recipe2{
+    font-size: 1.4rem;
+}
+.item2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.ing1{
+    font-size: 1.4rem;
+}
+
